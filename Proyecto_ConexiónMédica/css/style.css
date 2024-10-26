@@ -1,0 +1,37 @@
+#logo{
+    color: rgb(12, 170, 117);
+    font-weight: bold;
+}
+
+#content{
+    background-color: rgb(12, 170, 117);
+    margin-top: 10%;
+}
+
+.imgsalud{
+    width: 70%;
+    margin-left: 30%;
+}
+
+.card{
+    width:250px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+a.btn.btn-success{
+    margin-left: 30%;
+    text-align: center;
+}
+
+h4.card-title{
+    text-align: center;
+}
+
+p.card-text{
+    text-align: center;
+}
+
+div.card{
+    margin-left: 12%;
+}
+
