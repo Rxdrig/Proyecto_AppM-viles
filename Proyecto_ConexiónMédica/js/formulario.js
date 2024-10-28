@@ -9,6 +9,7 @@ document.getElementById('formulario').addEventListener('submit', function(e) {
     const correo = document.getElementById('txtEmail');
     const fono = document.getElementById('txtFono');
     const fecha = document.getElementById('txtFecha');
+    const hora = document.getElementById('txtHora');
     const genero = document.getElementById('cboGenero');
 
     // BANDERA O AUXILIAR
@@ -67,6 +68,7 @@ document.getElementById('formulario').addEventListener('submit', function(e) {
             correo: correo.value,
             fono: fono.value,
             fecha: fecha.value,
+            hora: hora.value,
             genero: genero.value
         };
 
@@ -90,6 +92,7 @@ document.getElementById('formulario').addEventListener('submit', function(e) {
         correo.value = '';
         fono.value = '';
         fecha.value = '';
+        hora.value = '';
         genero.value = '';
     } else {
         // MUESTRA MENSAJE ERROR
