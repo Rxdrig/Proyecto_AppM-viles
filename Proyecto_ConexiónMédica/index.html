@@ -16,8 +16,9 @@
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" id="logo">Conexión Médica</a>
+                    <p class="nav-link active" href="#" id="logo">Conexión Médica</p>
                 </li>
+                <div class="ml-auto"></div> <!-- Para empujar los siguientes elementos a la derecha -->
                 <li class="nav-item">
                     <a class="nav-link" href="#horario">Horario</a>
                 </li>
@@ -25,20 +26,27 @@
                     <a class="nav-link" href="#calendario">Pacientes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Salir</a>
+                    <a class="nav-link" href="#formulario">Crear Citas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Salir</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <div class="barrita">
+        <h4>Bienvenido a Nuestra Red</h4><p>Sistema de Conexión Médica</p>    
+    </div>
+    
 
     <!-- Content -->
     <div class="container-fluid p-5" id="content">
         <div class="row">
             <div class="col-md-6">
                 <h1>Conexión Médica</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ut libero eaque velit praesentium,
-                    delectus quae distinctio sit tempora ullam explicabo totam id, ipsam nesciunt. Cum minima rerum
-                    eveniet est..</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit reiciendis fuga tenetur odit reprehenderit, veniam quod vitae et quam dolorum, quaerat inventore quisquam officiis magnam, at esse necessitatibus neque!
+                Eos beatae rem architecto unde, nemo iure a incidunt. Officia iste fugit commodi nulla nesciunt totam officiis ab illum earum quidem corporis corrupti debitis esse, consequatur veritatis asperiores dolorum laudantium.
+                Iste sint, in vitae nostrum recusandae soluta consequatur adipisci dolorem sed ratione deleniti, repellendus ut voluptatibus magnam. Soluta rerum suscipit laboriosam odit. Quam dolorum quae, rem modi sint praesentium.</p>
             </div>
             <div class="col-md-6">
                 <img class="imgsalud" src="/Proyecto_ConexiónMédica/img/Health-Transparent-Free-PNG.png" alt="Salud">
@@ -50,7 +58,7 @@
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col-md-12 mt-5">
-                <h1 class="text-center" id="horario">Horario</h1>
+                <h2 class="text-center" id="horario">Horario</h2>
             </div>
         </div>
     </div>
@@ -62,7 +70,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Lunes</h4>
-                        <p class="card-text">Some example text.</p>
+                        <p class="card-text">Horario 07:30 - 23:00</p>
                         <a href="#addcitas" class="btn btn-success">Ingresar</a>
                     </div>
                 </div>
@@ -71,7 +79,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Martes</h4>
-                        <p class="card-text">Some example text.</p>
+                        <p class="card-text">Horario 07:30 - 23:00</p>
                         <a href="#addcitas" class="btn btn-success">Ingresar</a>
                     </div>
                 </div>
@@ -80,7 +88,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Miércoles</h4>
-                        <p class="card-text">Some example text.</p>
+                        <p class="card-text">Horario 07:30 - 23:00</p>
                         <a href="#addcitas" class="btn btn-success">Ingresar</a>
                     </div>
                 </div>
@@ -96,7 +104,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Jueves</h4>
-                        <p class="card-text">Some example text.</p>
+                        <p class="card-text">Horario 07:30 - 23:00.</p>
                         <a href="#addcitas" class="btn btn-success">Ingresar</a>
                     </div>
                 </div>
@@ -105,7 +113,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Viernes</h4>
-                        <p class="card-text">Some example text.</p>
+                        <p class="card-text">Horario 07:30 - 23:00</p>
                         <a href="#addcitas" class="btn btn-success">Ingresar</a>
                     </div>
                 </div>
@@ -114,7 +122,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Sábado</h4>
-                        <p class="card-text">Some example text.</p>
+                        <p class="card-text">Horario 07:30 - 23:00</p>
                         <a href="#addcitas" class="btn btn-success">Ingresar</a>
                     </div>
                 </div>
@@ -123,7 +131,7 @@
     </div>
 
     <!-- Titulo 2: Calendario de Citas -->
-    <div class="container mt-3 text-center">
+    <div class="container mt-3 mb-5 text-center">
         <div class="row">
             <div class="col-md-12 py-4 mt-5">
                 <h2 id="calendario">Calendario de Citas</h2>
@@ -201,17 +209,15 @@
 
 
 
-
-
-
     <!-- Titulo 3: Formulario -->
-    <div class="container mt-5 mb-5">
+    <div class="container mt-5 mb-1">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center" id="addcitas">Añadir hora Médica</h1>
+                <h2 class="text-center" id="addcitas">Crear Cita Médica</h2>
             </div>
         </div>
     </div>
+
 
     <div class="container" id="formulario">
         <div class="row">
@@ -273,19 +279,10 @@
 
 
     <footer>
-        <div class="container-fluid bg-success py-5 text-center">
+        <div class="container-fluid py-3 text-center">
             <div class="row">
-                <div class="col-md text-dark">
-                    <h5>Enlaces de interés</h5>
-                    <a href="#" class="footer-link  text-decoration-none text-light d-block">aaaaa</a>
-                    <a href="#" class="footer-link  text-decoration-none text-light d-block">aaaaa</a>
-                    <a href="#" class="footer-link  text-decoration-none text-light d-block">aaaaa</a>
-                </div>
-                <div class="col-md text-dark">
-                    <h5>Enlaces de interés</h5>
-                    <a href="#" class="footer-link  text-decoration-none text-light d-block">aaaaa</a>
-                    <a href="#" class="footer-link  text-decoration-none text-light d-block">aaaaa</a>
-                    <a href="#" class="footer-link  text-decoration-none text-light d-block">aaaaa</a>
+                <div class="col-md text-light">
+                    © 2024 Sistema de Conexión Médica - Todos los derechos reservados.
                 </div>
             </div>
         </div>
