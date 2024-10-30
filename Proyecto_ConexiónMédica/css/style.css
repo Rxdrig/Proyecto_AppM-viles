@@ -22,7 +22,6 @@ body{
     margin-top: 70px;
 }
 
-
 #logo{
     color: rgb(12, 170, 117);
     font-weight: bold;
@@ -108,10 +107,8 @@ div.card{
     color: rgb(164, 199, 186);
 }
 
-
 #btnGuardar{
     margin-left: 45%;
-
 }
 
 footer{
@@ -128,7 +125,6 @@ footer{
 .container mt-5 mb-5 .h1{
     font-weight: bold;
 }
-
 
 #horario {
     font-weight: bold;
